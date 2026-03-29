@@ -10,6 +10,7 @@ AC_CONFIG_MACRO_DIRS([m4])
 
 # Invoke automake:
 AM_INIT_AUTOMAKE([foreign])
+AM_MAINTAINER_MODE([disable])
 
 # Checks for programs.
 AC_PROG_CC
