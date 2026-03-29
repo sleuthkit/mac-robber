@@ -1,4 +1,4 @@
-AUTOMAKE_OPTIONS = foreign 
+ACLOCAL_AMFLAGS = -I m4
 bin_PROGRAMS = mac-robber
 EXTRA_DIST = .indent.pro CHANGES
 DISTCLEANFILES  = *~ core.* *core

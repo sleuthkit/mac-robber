@@ -6,9 +6,10 @@ AC_PREREQ([2.59])
 AC_INIT([mac-robber], [1.02], [Brian Carrier <carrier@sleuthkit.org>])
 AC_CONFIG_SRCDIR([mac-robber.c])
 AC_CONFIG_HEADERS([config.h])
+AC_CONFIG_MACRO_DIRS([m4])
 
 # Invoke automake:
-AM_INIT_AUTOMAKE(mac-robber, 1.02)
+AM_INIT_AUTOMAKE([foreign])
 
 # Checks for programs.
 AC_PROG_CC
